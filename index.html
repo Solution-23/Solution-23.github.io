@@ -15,36 +15,33 @@
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./m.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
-
 </head>
 
 <body>
     <header>
         <div class="container">
-            <nav style="display: flex; align-items: center; justify-content: space-between; width: 100%"></nav>
-            <a class="header_brand" href="/" style="width:140px;">
-                <img src="./assets/images/logotype.png" alt="logotype" style="height:auto; width:auto;">
+            <a class="header_brand" href="/">
+                <img src="./assets/images/logotype.png" alt="logotype">
             </a>
 
-            <div class="__navigation">
-                <a href="/">Главная</a>
-            </div>
-            <div class="__navigation">
-                <span>О нас</span>
-            </div>
-            <div class="__navigation">
-                <span>Купить VPN</span>
-            </div>
-
+            <nav class="header_nav">
+                <div class="__navigation">
+                    <a href="/">Главная</a>
+                </div>
+                <div class="__navigation">
+                    <a href="#about">О нас</a>
+                </div>
+                <div class="__navigation">
+                    <a href="#buy">Купить VPN</a>
+                </div>
+            </nav>
         </div>
     </header>
 
     <main>
-        <div style="display: grid; align-items: center; justify-content: center;">
-            <div>
-                <h1 class="__logo_title">Самый доступный и быстрый VPN в мире!</h1>
-            </div>
-            <div style="width: 100%; display: flex; align-items: center; justify-content: center;">
+        <div class="main-content">
+            <h1 class="__logo_title">Самый доступный и быстрый VPN в мире!</h1>
+            <div class="main-text">
                 <span>YEY!</span>
             </div>
         </div>
